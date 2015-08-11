@@ -2,13 +2,8 @@
   "name": "atom-everydayrails-rspec",
   "main": "./lib/atom-everydayrails-rspec",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "atom-everydayrails-rspec:toggle"
-  },
-  "repository": "https://github.com/atom/atom-everydayrails-rspec",
+  "description": "RSpec snippets based on Everyday Rails Testing with RSpec",
+  "repository": "https://github.com/everydayrails/atom-everydayrails-rspec",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
