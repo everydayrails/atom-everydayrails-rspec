@@ -1,0 +1,64 @@
+'.source.ruby':
+  'Expect to':
+    'prefix': 'ex'
+    'body': 'expect($1).to $2'
+  'Expect to not':
+    'prefix': 'exn'
+    'body': 'expect($1).to_not $2'
+  'Expect block to':
+    'prefix': 'exb'
+    'body': 'expect {\n\t$1\n}.to $2'
+  'Expect block to not':
+    'prefix': 'exbn'
+    'body': 'expect {\n\t$1\n}.to_not $2'
+  'Let':
+    'prefix': 'let'
+    'body': 'let(:$1) { $2 }'
+  'Feature scenario block':
+    'prefix': 'scn'
+    'body': 'scenario "$1" do\n\t$2\nend'
+  'RSpec describe block':
+    'prefix': 'desc'
+    'body': 'describe "$1" do\n\t$2\nend'
+  'RSpec context block':
+    'prefix': 'cxt'
+    'body': 'context "$1" do\n\t$2\nend'
+  'RSpec before block':
+    'prefix': 'bef'
+    'body': 'before do\n\t$1\n\end'
+  'RSpec it':
+    'prefix': 'it'
+    'body': 'it "$1" do\n\t$2\nend'
+  'Visit link':
+    'prefix': 'vis'
+    'body': 'visit "$1"'
+  'Within block':
+    'prefix': 'within'
+    'body': 'within "$1" do\n\t$2\nend'
+  'Have content':
+    'prefix': 'hc'
+    'body': 'have_content "$1"'
+  'Fill in input with value':
+    'prefix': 'fi'
+    'body': 'fill_in "$1", with: "$2"'
+  'Choose radio input':
+    'prefix': 'cho'
+    'body': 'choose "$1"'
+  'Click button':
+    'prefix': 'cb'
+    'body': 'click_button "$1"'
+  'Click link':
+    'prefix': 'cll'
+    'body': 'click_link "$1"'
+  'FactoryGirl.create':
+    'prefix': 'fgc'
+    'body': 'FactoryGirl.create(:$1)'
+  'FactoryGirl.build':
+    'prefix': 'fgb'
+    'body': 'FactoryGirl.create(:$1)'
+  'FactoryGirl.attributes_for':
+    'prefix': 'fga'
+    'body': 'FactoryGirl.attributes_for(:$1)'
+  'Save and open page':
+    'prefix': 'sop'
+    'body': 'save_and_open_page'
