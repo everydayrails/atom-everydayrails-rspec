@@ -1,4 +1,4 @@
-## 0.1.1
+## 0.2.0
 
 - Add `clb` snippet to click button, since it was what I was typing, anyway.
 - Remove lib directory since it's not being used by this package.
