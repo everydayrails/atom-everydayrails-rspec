@@ -64,7 +64,7 @@
     'body': 'FactoryGirl.create(:$1)'
   'FactoryGirl.build':
     'prefix': 'fgb'
-    'body': 'FactoryGirl.create(:$1)'
+    'body': 'FactoryGirl.build(:$1)'
   'FactoryGirl.attributes_for':
     'prefix': 'fga'
     'body': 'FactoryGirl.attributes_for(:$1)'

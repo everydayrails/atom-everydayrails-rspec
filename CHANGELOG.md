@@ -2,6 +2,7 @@
 
 - Add `hl` snippet to have_link.
 - Add `chk` snippet to check a checkbox.
+- Fix incorrect snippet output for `fgb` (FactoryGirl.build).
 
 ## 0.2.0
 
