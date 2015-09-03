@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Add `hl` snippet to have_link.
+
 ## 0.2.0
 
 - Add `clb` snippet to click button, since it was what I was typing, anyway.

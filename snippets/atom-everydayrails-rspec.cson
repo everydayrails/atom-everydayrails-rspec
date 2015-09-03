@@ -38,6 +38,9 @@
   'Have content':
     'prefix': 'hc'
     'body': 'have_content "$1"'
+  'Have link':
+    'prefix': 'hl'
+    'body': 'have_link "$1"${2:, href: "$3"}'
   'Fill in input with value':
     'prefix': 'fi'
     'body': 'fill_in "$1", with: "$2"'
