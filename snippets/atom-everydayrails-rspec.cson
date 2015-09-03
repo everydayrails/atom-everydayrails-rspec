@@ -47,6 +47,9 @@
   'Choose radio input':
     'prefix': 'cho'
     'body': 'choose "$1"'
+  'Check box':
+    'prefix': 'chk'
+    'body': 'check "$1"'
   'Click button':
     'prefix': 'cb'
     'body': 'click_button "$1"'

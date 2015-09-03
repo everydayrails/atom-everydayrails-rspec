@@ -1,6 +1,7 @@
 ## 0.3.0
 
 - Add `hl` snippet to have_link.
+- Add `chk` snippet to check a checkbox.
 
 ## 0.2.0
 
