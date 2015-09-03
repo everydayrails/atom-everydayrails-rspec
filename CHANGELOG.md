@@ -3,6 +3,8 @@
 - Add `hl` snippet to have_link.
 - Add `chk` snippet to check a checkbox.
 - Fix incorrect snippet output for `fgb` (FactoryGirl.build).
+- Add `bt` and `bf` snippets for be_truthy and be_falsy matchers, respectively.
+- Add `rto` snippet for route_to matcher.
 
 ## 0.2.0
 

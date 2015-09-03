@@ -59,6 +59,15 @@
   'Click link':
     'prefix': 'cll'
     'body': 'click_link "$1"'
+  'Be truthy':
+    'prefix': 'bt'
+    'body': 'be_truthy'
+  'Be falsy':
+    'prefix': 'bf'
+    'body': 'be_falsy'
+  'Route to':
+    'prefix': 'rto'
+    'body': 'route_to(\n\tcontroller: "$1",\n\taction: "$2"\n)'
   'FactoryGirl.create':
     'prefix': 'fgc'
     'body': 'FactoryGirl.create(:$1)'
