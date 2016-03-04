@@ -8,15 +8,15 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `ex` &rarr; `expect($1).to $2`
 
-* Expect to:
+* Expect to not:
 
     `exn` &rarr; `expect($1).to_not $2`
 
-* Expect to:
+* Expect block to:
 
     `exb` &rarr; `expect {\n\t$1\n}.to $2`
 
-* Expect to:
+* Expect block to not:
 
     `exbn` &rarr; `expect {\n\t$1\n}.to_not $2`
 
