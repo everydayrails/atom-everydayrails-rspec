@@ -1,7 +1,7 @@
 {
   "name": "atom-everydayrails-rspec",
   "main": "./lib/atom-everydayrails-rspec",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "RSpec snippets based on Everyday Rails Testing with RSpec",
   "repository": "https://github.com/everydayrails/atom-everydayrails-rspec",
   "license": "MIT",
