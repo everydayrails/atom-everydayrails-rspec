@@ -50,6 +50,9 @@
   'Check box':
     'prefix': 'chk'
     'body': 'check "$1"'
+  'Select from menu':
+    'prefix': 'sel'
+    'body': 'select "$1", from: "$2"'
   'Click button':
     'prefix': 'cb'
     'body': 'click_button "$1"'

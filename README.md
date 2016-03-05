@@ -72,6 +72,10 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `chk` &rarr; `check "$1"`
 
+* Select from menu:
+
+    `sel` &rarr; `select "$1", from: "$2"`
+
 * Click button:
 
     `cb` &rarr; `click_button "$1"`
