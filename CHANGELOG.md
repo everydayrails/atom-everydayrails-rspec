@@ -1,4 +1,9 @@
-## 0.3.0
+## 0.4.0
+
+- Add documentation—thanks, Matt Petty @lodestone!
+- Add `sel` snippet to select from a menu.
+
+## 0.3.0 - Unreleased
 
 - Add `hl` snippet to have_link.
 - Add `chk` snippet to check a checkbox.

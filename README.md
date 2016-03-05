@@ -113,3 +113,7 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 * Save and open page:
 
     `sop` &rarr; `save_and_open_page`
+
+## Thanks:
+
+- Thank you Matt Perry @lodestone for documentation!
