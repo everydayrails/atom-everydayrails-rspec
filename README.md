@@ -56,6 +56,10 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `hc` &rarr; `have_content "$1"`
 
+* Have link:
+
+    `hl` &rarr; `have_link "$1"${2:, href: "$3"}`
+
 * Fill in input with value:
 
     `fi` &rarr; `fill_in "$1", with: "$2"`
@@ -63,6 +67,10 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 * Choose radio input:
 
     `cho` &rarr; `choose "$1"`
+
+* Check a checkbox:
+
+    `chk` &rarr; `check "$1"`
 
 * Click button:
 
@@ -79,12 +87,24 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
 * FactoryGirl.build:
 
-    `fgb` &rarr; `FactoryGirl.create(:$1)`
+    `fgb` &rarr; `FactoryGirl.build(:$1)`
 
 
 * FactoryGirl.attributes_for:
 
     `fga` &rarr; `FactoryGirl.attributes_for(:$1)`
+
+* Be truthy:
+
+    `bt` &rarr; `be_truthy`
+
+* Be falsy:
+
+    `bf` &rarr; `be_falsy`
+
+* Route to:
+
+    `route_to(\n\tcontroller: "$1",\n\taction: "$2"\n)`
 
 * Save and open page:
 
