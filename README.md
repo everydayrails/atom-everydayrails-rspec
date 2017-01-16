@@ -60,6 +60,10 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `hl` &rarr; `have_link "$1"${2:, href: "$3"}`
 
+* Have field:
+
+    `hf` &rarr; `have_field "$1"${2:, text: "$3"}`
+
 * Fill in input with value:
 
     `fi` &rarr; `fill_in "$1", with: "$2"`

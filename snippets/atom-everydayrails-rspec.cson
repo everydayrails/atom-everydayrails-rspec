@@ -41,6 +41,9 @@
   'Have link':
     'prefix': 'hl'
     'body': 'have_link "$1"${2:, href: "$3"}'
+  'Have field':
+    'prefix': 'hf'
+    'body': 'have_field "$1"${2:, with: "$3"}'
   'Fill in input with value':
     'prefix': 'fi'
     'body': 'fill_in "$1", with: "$2"'
