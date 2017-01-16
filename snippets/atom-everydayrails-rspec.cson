@@ -83,6 +83,9 @@
   'FactoryGirl.attributes_for':
     'prefix': 'fga'
     'body': 'FactoryGirl.attributes_for(:$1)'
+  'FactoryGirl trait':
+    'prefix': 'tr'
+    'body': 'trait :$1 do\n\t$2\nend'
   'Save and open page':
     'prefix': 'sop'
     'body': 'save_and_open_page'

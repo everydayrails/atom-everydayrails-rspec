@@ -102,6 +102,10 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `fga` &rarr; `FactoryGirl.attributes_for(:$1)`
 
+* Factory Girl trait:
+
+    `tr` &rarr; `trait :$1 do\n\t$2\nend`
+
 * Be truthy:
 
     `bt` &rarr; `be_truthy`
