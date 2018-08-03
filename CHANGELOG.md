@@ -1,3 +1,12 @@
+## 0.5.0
+
+- Add support for matchers introduced in 2017 edition of book.
+- Add support for FactoryBot snippets.
+- Remove `cb` snippet for `click_button` to resolve duplicate key issue.
+- Add snippet for `have_current_path`.
+- Add snippet for Factory Girl traits.
+- Add snippet for `have_field` matcher.
+
 ## 0.4.0
 
 - Add documentation—thanks, Matt Petty @lodestone!
