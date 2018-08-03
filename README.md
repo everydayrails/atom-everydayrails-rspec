@@ -82,7 +82,7 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
 * Click button:
 
-    `cb` &rarr; `click_button "$1"`
+    `clb` &rarr; `click_button "$1"`
 
 * Click link:
 
