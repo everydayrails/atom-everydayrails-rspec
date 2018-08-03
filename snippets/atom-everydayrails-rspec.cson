@@ -74,6 +74,15 @@
   'Route to':
     'prefix': 'rto'
     'body': 'route_to(\n\tcontroller: "$1",\n\taction: "$2"\n)'
+  'FactoryBot.create':
+    'prefix': 'fbc'
+    'body': 'FactoryBot.create(:$1)'
+  'FactoryBot.build':
+    'prefix': 'fbb'
+    'body': 'FactoryBot.build(:$1)'
+  'FactoryBot.attributes_for':
+    'prefix': 'fba'
+    'body': 'FactoryBot.attributes_for(:$1)'
   'FactoryGirl.create':
     'prefix': 'fgc'
     'body': 'FactoryGirl.create(:$1)'
@@ -83,7 +92,7 @@
   'FactoryGirl.attributes_for':
     'prefix': 'fga'
     'body': 'FactoryGirl.attributes_for(:$1)'
-  'FactoryGirl trait':
+  'FactoryBot/FactoryGirl trait':
     'prefix': 'tr'
     'body': 'trait :$1 do\n\t$2\nend'
   'Save and open page':

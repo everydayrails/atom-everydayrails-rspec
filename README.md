@@ -88,6 +88,20 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `cll` &rarr; `click_link "$1"`
 
+* FactoryBot.create:
+
+    `fbc` &rarr; `FactoryBot.create(:$1)`
+
+
+* FactoryBot.build:
+
+    `fbb` &rarr; `FactoryBot.build(:$1)`
+
+
+* FactoryBot.attributes_for:
+
+    `fba` &rarr; `FactoryBot.attributes_for(:$1)`
+
 * FactoryGirl.create:
 
     `fgc` &rarr; `FactoryGirl.create(:$1)`
@@ -102,7 +116,7 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `fga` &rarr; `FactoryGirl.attributes_for(:$1)`
 
-* Factory Girl trait:
+* Factory Bot/Factory Girl trait:
 
     `tr` &rarr; `trait :$1 do\n\t$2\nend`
 
