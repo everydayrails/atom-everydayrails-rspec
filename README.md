@@ -128,6 +128,22 @@ Atom snippets for RSpec, based on the style of Rails testing described in [Every
 
     `bf` &rarr; `be_falsy`
 
+* Be valid:
+
+    `bv` &rarr; `be_valid`
+
+* Be empty:
+
+    `be` &rarr; `be_empty`
+
+* Have HTTP status:
+
+    `hhs` &rarr; `have_http_status($1)`
+
+* Be success:
+
+    `bs` &rarr; `be_success`
+
 * Route to:
 
     `route_to(\n\tcontroller: "$1",\n\taction: "$2"\n)`

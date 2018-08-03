@@ -71,9 +71,21 @@
   'Be falsy':
     'prefix': 'bf'
     'body': 'be_falsy'
+  'Be valid':
+    'prefix': 'bv'
+    'body': 'be_valid'
+  'Be empty':
+    'prefix': 'be'
+    'body': 'be_empty'
   'Route to':
     'prefix': 'rto'
     'body': 'route_to(\n\tcontroller: "$1",\n\taction: "$2"\n)'
+  'Have HTTP status':
+    'prefix': 'hhs'
+    'body': 'have_http_status($1)'
+  'Be success':
+    'prefix': 'bs'
+    'body': 'be_success'
   'FactoryBot.create':
     'prefix': 'fbc'
     'body': 'FactoryBot.create(:$1)'
